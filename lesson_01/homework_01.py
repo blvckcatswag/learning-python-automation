@@ -97,3 +97,10 @@ second_book_price  = 8 + 2
 third_book_price = (first_book_price + second_book_price) / 2
 all_books_price  = first_book_price + second_book_price + third_book_price
 print("Цена за все книги составила:", all_books_price)
+
+# Изменения для дз №2 (ветка homework2)
+a = int(input("число1"))
+b = int(input("число2"))
+c = int(input("число3"))
+d = int(input("число4"))
+print(sum([a, b, c, d]))
