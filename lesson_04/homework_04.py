@@ -55,8 +55,8 @@ words = adwentures_of_tom_sawer.split()
 count_title = 0
 
 for word in words:
-    if word[0].isupper():
-        count_title = count_title + 1
+    if word.istitle():
+        count_title += 1
 
 print(count_title)
 
