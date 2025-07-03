@@ -34,14 +34,8 @@ print(adwentures_of_tom_sawer)
 # task 03 ==
 """ Зробіть так, щоб у тексті було не більше одного пробілу між словами.
 """
-adwentures_of_tom_sawer = adwentures_of_tom_sawer.replace("  ", " ")
+adwentures_of_tom_sawer = " ".join(adwentures_of_tom_sawer.split())
 print(adwentures_of_tom_sawer)
-#Не помню в каком задании надо использовать циклы. В этом можно ещё таким способом:
-while '  ' in adwentures_of_tom_sawer:
-    adwentures_of_tom_sawer = adwentures_of_tom_sawer.replace('  ', ' ')
-
-print(adwentures_of_tom_sawer)
-#Так даже вернее отработало судя по выводу - строка стала ещё короче
 
 # task 04
 """ Виведіть, скількі разів у тексті зустрічається літера "h"
