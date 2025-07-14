@@ -138,6 +138,7 @@ print(strint_return(lst1))
 
 
 def count_children_today():
+    'Считает сколько детей сегодня в театральном кружке'
     all_boys = 24
     all_girls = all_boys // 2
 
@@ -160,6 +161,7 @@ count_children_today()
 
 
 def total_books_price():
+    'Считает цену всех книг, купленных в 1-м экхемпляре'
     first_book_price = 8
     second_book_price = first_book_price + 2
     third_book_price = (first_book_price + second_book_price) / 2
