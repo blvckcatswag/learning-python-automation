@@ -1,0 +1,14 @@
+2025-09-21 01:08:42,559 | INFO | POST http://127.0.0.1:8080/auth (basic auth)
+2025-09-21 01:08:42,577 | INFO | Токен получен, заголовок Authorization установлен
+2025-09-21 01:08:42,579 | INFO | GET http://127.0.0.1:8080/cars params={'sort_by': 'price', 'limit': '5'}
+2025-09-21 01:08:42,609 | INFO | Status 200 | 476 bytes
+2025-09-21 01:08:42,611 | INFO | GET http://127.0.0.1:8080/cars params={'sort_by': 'year', 'limit': '10'}
+2025-09-21 01:08:42,625 | INFO | Status 200 | 953 bytes
+2025-09-21 01:08:42,627 | INFO | GET http://127.0.0.1:8080/cars params={'sort_by': 'engine_volume', 'limit': '3'}
+2025-09-21 01:08:42,640 | INFO | Status 200 | 286 bytes
+2025-09-21 01:08:42,642 | INFO | GET http://127.0.0.1:8080/cars params={'sort_by': 'brand', 'limit': '7'}
+2025-09-21 01:08:42,655 | INFO | Status 200 | 667 bytes
+2025-09-21 01:08:42,658 | INFO | GET http://127.0.0.1:8080/cars params={'sort_by': 'price'}
+2025-09-21 01:08:42,670 | INFO | Status 200 | 2389 bytes
+2025-09-21 01:08:42,672 | INFO | GET http://127.0.0.1:8080/cars params={'sort_by': 'year', 'limit': '100'}
+2025-09-21 01:08:42,685 | INFO | Status 200 | 2389 bytes
